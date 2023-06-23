@@ -10,7 +10,7 @@ const Stack = ({children}) => {
       whileHover={{
         scale: 1.1,
       }}
-      className="m-4 flex items-center justify-center overflow-hidden rounded-md border border-primary p-5 text-center text-7xl opacity-95 shadow-lg"
+      className="m-4 flex items-center justify-center overflow-hidden rounded-md border border-primary p-5 text-center text-7xl opacity-95 shadow-lg dark:shadow-white/50 dark:border-primaryDark/60 dark:text-light"
     >
       {children}
     </motion.div>
