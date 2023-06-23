@@ -1,10 +1,13 @@
-import AnimatedText from "@/components/AnimatedText";
+import AnimatedText from "@/components/Home/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import profilePic from "../../public/images/profile/developer-pic-2.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import TypingEffect from "@/effects/TypingEffect";
+import Experience from "@/components/about/Experience";
+import Qualifications from "@/components/about/Qualification";
 
 
 const AnimatedNumbers=({value})=>{
@@ -34,6 +37,7 @@ const AnimatedNumbers=({value})=>{
 }
 
 const about = () => {
+  const [typing, setTyping] = useState([1]);
   return (
     <>
       <Head>
@@ -51,26 +55,46 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a
+                Hi, I'm Shailesh Gehlot, a Full Stack developer (MERN) with a
                 passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
+                digital experiences. With 1 years of experience in the field. I
                 am always looking for new and innovative ways to bring my
                 client's visions to life.
               </p>
 
-              <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it's about solving problems and creating intuitive,
-                enjoyable experiences for users.
-              </p>
+              {typing.indexOf(1) != -1 && (
+                <p className="my-4 font-medium">
+                  <TypingEffect
+                    sequence={[
+                      `I believe that design is about more than just making things look
+                      pretty – it's about solving problems and creating intuitive,
+                      enjoyable experiences for users.`,
+                      1000,
+                      () => {
+                        setTyping((prev) => [...prev, 2]);
+                      },
+                    ]}
+                  />
+                </p>
+              )}
 
-              <p className="font-medium">
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
-              </p>
+              {typing.indexOf(2) != -1 && (
+                <p className="my-4 font-medium">
+                  <TypingEffect
+                    sequence={[
+                      `Whether I'm working on a website, mobile app, or other digital
+                      product, I bring my commitment to design excellence and
+                      user-centered thinking to every project I work on. I look
+                      forward to the opportunity to bring my skills and passion to
+                      your next project.`,
+                      1000,
+                      () => {
+                        setTyping((prev) => [...prev, 2]);
+                      },
+                    ]}
+                  />
+                </p>
+              )}
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark"/>
@@ -100,6 +124,8 @@ const about = () => {
 
             </div>
           </div>
+          <Experience/>
+          <Qualifications/>
         </Layout>
       </main>
     </>
