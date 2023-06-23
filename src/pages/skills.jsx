@@ -19,7 +19,7 @@ const skills = () => {
       <Layout className="pt-16 space-y-14">
         <AnimatedText
           text="Virtuoso"
-          className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+          className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl 2xl:!text-7xl xl:!text-7xl"
         />
         <TechStack />
         <ToolStack />

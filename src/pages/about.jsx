@@ -46,7 +46,7 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-        <title>Rohit Chauhan | About Page</title>
+        <title>Shailesh Gehlot | About Page</title>
         <meta name="description" content=""></meta>
       </Head>
       <TransitionEffect />
@@ -54,7 +54,7 @@ const AboutPage = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose!"
-            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            className="mb-16 2xl:!text-7xl xl:!text-7xl lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
@@ -102,7 +102,7 @@ const AboutPage = () => {
               <div className="absolute -right-5 top-3 -z-10 h-[101%] w-[102%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="Rohit Chauhan"
+                alt="shaileshgehlot"
                 className="h-auto w-full rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw,

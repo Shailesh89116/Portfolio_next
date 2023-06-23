@@ -8,9 +8,15 @@ import Link from 'next/link'
 import HireMe from '@/components/Home/HireMe'
 import { LinkArrow } from '@/ui/Icons'
 import TransitionEffect from '@/effects/TransitionEffect'
+import { SiGmail, SiWhatsapp } from 'react-icons/si'
+import { useState } from 'react'
+import ContactModal from '@/components/Contact/ContactModal'
 
 
 export default function Home() {
+
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <>
      <>
@@ -29,7 +35,7 @@ export default function Home() {
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               50vw"
-                alt="TheTechNerdRohit"
+                alt="shaileshgehlot"
                 className="h-auto w-full lg:hidden md:inline-block md:w-full"
               />
             </div>
@@ -46,19 +52,18 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="RohitChauhan.pdf"
+                  href="dummy.pdf"
                   target="_blank"
-                  className="flex items-center rounded-lg border-2 border-solid border-transparent bg-dark p-2.5 px-6 text-lg font-semibold text-light hover:border-dark hover:bg-light hover:text-dark dark:bg-light dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base"
+                  className="flex items-center rounded-lg border-2 mr-5 border-solid border-transparent bg-dark p-2.5 px-6 text-lg font-semibold text-light hover:border-dark hover:bg-light hover:text-dark dark:bg-light dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base"
                 >
                   Resume <LinkArrow className="ml-1 w-6" />
                 </Link>
-                <Link
-                  href="mailto:thetechnerdrohit@gmail.com"
-                  target="_blank"
-                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
-                >
-                  Contact
-                </Link>
+                <button
+                className="flex items-center rounded-lg border-2 border-solid  bg-light border-dark dark:border-light p-2.5 px-6 text-lg font-semibold text-dark hover:border-dark hover:bg-dark hover:text-light dark:bg-dark dark:text-light hover:dark:border-light hover:dark:bg-light hover:dark:text-dark md:p-2 md:px-4 md:text-base"
+                onClick={()=>{setOpenModal(true)}}>Contact</button>
+                <ContactModal openModal={openModal} closeModal={()=>{setOpenModal(false)}}/>
+                
+
               </div>
             </div>
           </div>
