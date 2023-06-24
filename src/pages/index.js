@@ -52,7 +52,7 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="dummy.pdf"
+                  href="Shailesh-gehlot_Resume.pdf"
                   target="_blank"
                   className="flex items-center rounded-lg border-2 mr-5 border-solid border-transparent bg-dark p-2.5 px-6 text-lg font-semibold text-light hover:border-dark hover:bg-light hover:text-dark dark:bg-light dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base"
                 >
@@ -61,9 +61,7 @@ export default function Home() {
                 <button
                 className="flex items-center rounded-lg border-2 border-solid  bg-light border-dark dark:border-light p-2.5 px-6 text-lg font-semibold text-dark hover:border-dark hover:bg-dark hover:text-light dark:bg-dark dark:text-light hover:dark:border-light hover:dark:bg-light hover:dark:text-dark md:p-2 md:px-4 md:text-base"
                 onClick={()=>{setOpenModal(true)}}>Contact</button>
-                <ContactModal openModal={openModal} closeModal={()=>{setOpenModal(false)}}/>
-                
-
+                <ContactModal openModal={openModal} closeModal={()=>{setOpenModal(false)}}/>                
               </div>
             </div>
           </div>

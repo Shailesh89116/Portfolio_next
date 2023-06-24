@@ -10,7 +10,8 @@ import TransitionEffect from "@/effects/TransitionEffect";
 import TypingEffect from "@/effects/TypingEffect";
 import Experience from "@/components/about/Experience";
 import Qualifications from "@/components/about/Qualification";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg"
+import profilePic from "../../public/images/profile/profilePic-3.png"
+
 
 const AnimatedNumbers = ({ value, springduration }) => {
   const ref = useRef(null);
@@ -62,7 +63,7 @@ const AboutPage = () => {
                 Biography
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m Shailesh Gehlot, a web developer with a passion for
+                Hi, I&apos;m Shailesh Gehlot, a Fullstack Developer with a passion for
                 creating beautiful, functional, and user-centered digital
                 experiences. With 5+ years of experience in the field. I am
                 always looking for new and innovative ways to bring my clients&apos;
@@ -103,7 +104,7 @@ const AboutPage = () => {
               <Image
                 src={profilePic}
                 alt="shaileshgehlot"
-                className="h-auto w-full rounded-2xl"
+                className="h-auto w-full rounded-2xl "
                 priority
                 sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw,
@@ -111,31 +112,22 @@ const AboutPage = () => {
               />
             </div>
 
-            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
+            <div className="col-span-2 flex flex-col items-end justify-space gap-20 xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  {AnimatedNumbers({ value: 5, springduration: 5000 })}+
+                  {AnimatedNumbers({ value: 15, springduration: 5000 })}+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  satisfied clients
+                  Projects Completed
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  {AnimatedNumbers({ value: 15, springduration: 6000 })}+
+                  {AnimatedNumbers({ value: 1, springduration: 6000 })}+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  projects completed
-                </h2>
-              </div>
-
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  {AnimatedNumbers({ value: 1, springduration: 7000 })}+
-                </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  years of experience
+                  Year of Experience
                 </h2>
               </div>
             </div>

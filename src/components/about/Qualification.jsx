@@ -18,13 +18,11 @@ const Details = ({degree, collegeName, time, address }) => {
       >
         <h3 className="text-2xl font-bold capitalize sm:text-xl xs:text-lg dark:text-light">
           {degree} &nbsp;{" "}
-          <a
-            href="/"
-            target="_blank"
+          <span
             className="capitalize text-primary dark:text-primaryDark"
           >
             @{collegeName}
-          </a>
+          </span>
         </h3>
         <span className="font-medium capitalize text-dark/75 dark:text-light/75">
           {time} | {address}

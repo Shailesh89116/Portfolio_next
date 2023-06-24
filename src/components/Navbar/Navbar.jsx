@@ -11,9 +11,24 @@ const CustomLink = ({href, title, className=""})=>{
   const router = useRouter();
 
   return(
-    <Link href={href} className={`${className} relative group dark:text-primaryDark`}>{title}
-    <span className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? 'w-full dark:bg-primaryDark' : 'w-0'} dark:bg-light`}>&nbsp;</span>
-    </Link>
+    <Link
+    className={`${className} ${
+      router.asPath === href && "text-primary dark:text-primaryDark"
+    } group relative`}
+    href={href}
+  >
+    {title}
+
+    <span
+      className={`ease absolute -bottom-0.5 
+    left-0 inline-block h-[1px]
+    bg-dark transition-[width] duration-300 group-hover:w-full ${
+      router.asPath === href ? "w-full bg-primary dark:bg-primaryDark" : "w-0"
+    } dark:bg-light`}
+    >
+      &nbsp;
+    </span>
+  </Link>
   )
 }
 

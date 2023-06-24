@@ -17,7 +17,7 @@ const ContactModal = ({ openModal, closeModal }) => {
               </div>
               <div className="flex items-center justify-center text-dark ">
                 <Link
-                  href="https://api.whatsapp.com/send?phone=919137038410"
+                  href="mailto:shailesh.gehlot.sg@gmail.com"
                   target="_blank"
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >

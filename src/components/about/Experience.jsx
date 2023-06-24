@@ -18,13 +18,12 @@ const Details = ({position, companyName, comapnyLink, time, address, work }) => 
       >
         <h3 className="text-2xl font-bold capitalize sm:text-xl xs:text-lg dark:text-light">
           {position} &nbsp;{" "}
-          <a
-            href={comapnyLink}
-            target="_blank"
+          <span
+            
             className="capitalize text-primary dark:text-primaryDark"
           >
             @{companyName}
-          </a>
+          </span>
         </h3>
         <span className="font-medium capitalize text-dark/75 dark:text-light/75">
           {time} | {address}
@@ -58,10 +57,10 @@ const Experience = () => {
           position="Full Stack Developer (MERN)"
           companyName="Ovonts Technologies Pvt. Ltd."
           address="Mumbai, India"
-          comapnyLink="https://www.propark.com"
           time="Apr 2022 - May 2023"
-          work="I am the part of the platform system design and database architecture for the latest Command Center (Customer Centre) product.
-          Conducted requirements gathering for product development."
+          work="I am the part of the SAAS product development team and played a key role in developing multiple features that improved the overall user experience.
+          Actively involved in the development of new modules in existing mobile
+and web applications."
         />
       </ul>
     </div>
