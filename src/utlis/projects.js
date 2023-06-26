@@ -16,7 +16,7 @@ export const ProjectsInfo = [
         "type": "Professional Project"
     },
     {
-        "name": "Decra",
+        "name": "Admin Dashboard",
         "description": "Decra: Debit Credit Analytics is an exceptional app designed to revolutionize business financial management. As an integral part of your portfolio, Decra showcases your ability to control finances, prevent revenue leakage, automate reconciliation, and gain deep insights into periodic sales.",
         "is_featured": false,
         "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ovonts_njzhqv.png",
@@ -27,7 +27,7 @@ export const ProjectsInfo = [
             "#BusinessFinances",
             "#AutomatedReconciliation"
         ],
-        "type": "Freelance Project"
+        "type": "Personal Project"
     },
     {
         "name": "Webuy",
