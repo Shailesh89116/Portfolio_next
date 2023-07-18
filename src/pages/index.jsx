@@ -52,7 +52,7 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="Shailesh-gehlot_Resume.pdf"
+                  href="Shailesh-Gehlot_Resume.pdf"
                   target="_blank"
                   className="flex items-center rounded-lg border-2 mr-5 border-solid border-transparent bg-dark p-2.5 px-6 text-lg font-semibold text-light hover:border-dark hover:bg-light hover:text-dark dark:bg-light dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base"
                 >
