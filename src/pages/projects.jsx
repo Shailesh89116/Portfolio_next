@@ -112,6 +112,14 @@ const ProjectsPage = () => {
         />
       ),
     },
+    {
+      name: "Clones",
+      icon: (
+        <MdWorkOutline
+          className={"mr-2 h-5 w-5 text-primary dark:text-primaryDark"}
+        />
+      ),
+    },
 
   ]);
 

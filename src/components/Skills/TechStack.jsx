@@ -1,6 +1,6 @@
 import React from 'react'
 import Stack from './Stack'
-import { SiCss3, SiDocker, SiExpress, SiHtml5, SiJavascript, SiKubernetes, SiMongodb, SiNodedotjs, SiReact, SiRedux } from 'react-icons/si'
+import { SiCss3, SiDocker, SiExpress, SiHtml5, SiJavascript, SiKubernetes, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiRedux, SiSass } from 'react-icons/si'
 
 
 
@@ -21,7 +21,13 @@ const TechStack = () => {
         <SiCss3 />
       </Stack>
       <Stack>
+        <SiSass />
+      </Stack>
+      <Stack>
         <SiJavascript />
+      </Stack>
+      <Stack>
+        <SiNextdotjs />
       </Stack>
       <Stack>
         <SiReact />
