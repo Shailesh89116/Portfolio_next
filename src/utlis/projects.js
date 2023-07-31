@@ -16,7 +16,30 @@ export const ProjectsInfo = [
         "type": "Professional Project"
     },
     {
-        "name": "Admin Dashboard",
+        "name": "SaaS AI Platform",
+        "description": "A state-of-the-art AI SaaS Platform with five AI tools using models like OpenAI and ReplicateAI. Powered by the Next.js 13 App Router, our platform will not only be efficient but also user-centric.",
+        "is_featured": true,
+        "img_source": "https://res.cloudinary.com/domaepzzs/image/upload/v1690818977/SaaS_AI_Platform_uiukug.png",
+        "source_code_link": "https://github.com/Shailesh89116/SaaS-AI-Platform",
+        "demo_link": "https://saa-s-ai-platform-two.vercel.app/",
+        "type": "Personal Project"
+    },
+    {
+        "name": "Ecommerce NextJs",
+        "description": "Decra: Debit Credit Analytics is an exceptional app designed to revolutionize business financial management. As an integral part of your portfolio, Decra showcases your ability to control finances, prevent revenue leakage, automate reconciliation, and gain deep insights into periodic sales.",
+        "is_featured": false,
+        "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ovonts_njzhqv.png",
+        "source_code_link": "https://github.com/Shailesh89116/Admin-Dashboard",
+        "demo_link": "https://play.google.com/store/apps/details?id=com.view.decra",
+        "domains": [
+            "#DebitCreditAnalytics",
+            "#BusinessFinances",
+            "#AutomatedReconciliation"
+        ],
+        "type": "Personal Project"
+    },
+    {
+        "name": "Ecommerce Dashboard",
         "description": "Decra: Debit Credit Analytics is an exceptional app designed to revolutionize business financial management. As an integral part of your portfolio, Decra showcases your ability to control finances, prevent revenue leakage, automate reconciliation, and gain deep insights into periodic sales.",
         "is_featured": false,
         "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ovonts_njzhqv.png",
