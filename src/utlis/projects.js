@@ -25,38 +25,28 @@ export const ProjectsInfo = [
         "type": "Personal Project"
     },
     {
-        "name": "Ecommerce NextJs",
-        "description": "Decra: Debit Credit Analytics is an exceptional app designed to revolutionize business financial management. As an integral part of your portfolio, Decra showcases your ability to control finances, prevent revenue leakage, automate reconciliation, and gain deep insights into periodic sales.",
+        "name": "Ecommerce Store",
+        "description": "Build a fully functional e-commerce with  with admin dashboard with seamless navigation and user experience and also integrated stripe as payment gateway.",
         "is_featured": false,
         "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ovonts_njzhqv.png",
-        "source_code_link": "https://github.com/Shailesh89116/Admin-Dashboard",
-        "demo_link": "https://play.google.com/store/apps/details?id=com.view.decra",
-        "domains": [
-            "#DebitCreditAnalytics",
-            "#BusinessFinances",
-            "#AutomatedReconciliation"
-        ],
+        "source_code_link": "https://github.com/Shailesh89116/ecommerce-store",
+        "demo_link": "https://ecommerce-store-puce-rho.vercel.app",
         "type": "Personal Project"
     },
     {
         "name": "Ecommerce Dashboard",
-        "description": "Decra: Debit Credit Analytics is an exceptional app designed to revolutionize business financial management. As an integral part of your portfolio, Decra showcases your ability to control finances, prevent revenue leakage, automate reconciliation, and gain deep insights into periodic sales.",
+        "description": "Secured E-commerce admin dashboard serve as both CMS, admin and API where admin can create, update and delete categories as well as products and upload multiple images for products. Also used clerk for authentication.",
         "is_featured": false,
         "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ovonts_njzhqv.png",
-        "source_code_link": "https://github.com/Shailesh89116/Admin-Dashboard",
-        "demo_link": "https://play.google.com/store/apps/details?id=com.view.decra",
-        "domains": [
-            "#DebitCreditAnalytics",
-            "#BusinessFinances",
-            "#AutomatedReconciliation"
-        ],
+        "source_code_link": "https://github.com/Shailesh89116/ecommerce-admin",
+        "demo_link": "https://ecommerce-admin-eight-sigma.vercel.app",
         "type": "Personal Project"
     },
     {
         "name": "Netflix Clone",
-        "description": "Webuy is a cutting-edge ecommerce platform designed specifically for engineering students, catering to their unique needs and requirements. With a user-friendly interface and a wide range of products, Webuy offers a seamless shopping experience tailored to engineering enthusiasts.",
+        "description": "Build Netflix clone with some basic features like add/remove favorite, videoplayer and used nextAuth for authentication.",
         "is_featured": false,
-        "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/webuy_f7b9op.png",
+        "img_source": "https://res.cloudinary.com/domaepzzs/image/upload/v1691488397/Netflix_Clone_r9nxtc.png",
         "source_code_link": "https://github.com/Shailesh89116/Netflix-Clone-NextJs",
         "demo_link": "",
         "domains": [
@@ -82,7 +72,7 @@ export const ProjectsInfo = [
     },
     {
         "name": "Mini Microservice App",
-        "description": "iFeedback is a cutting-edge cross-platform application designed exclusively for restaurants, enabling them to gather valuable feedback from their customers. This powerful tool empowers restaurants to improve their services, enhance customer satisfaction, and drive business growth.",
+        "description": "This is microservice based app where user post some quotes and also do comment on that. Used Asynchronous communication to communicate with services. Also built images of services using Docker and containerizing them with the help of kubernetes.",
         "is_featured": false,
         "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ifeedback_su7ld5.png",
         "source_code_link": "https://github.com/Shailesh89116/Mini-Microservices-App",
@@ -95,8 +85,8 @@ export const ProjectsInfo = [
         "type": "Personal Project"
     },
     {
-        "name": "Advanced Authentication",
-        "description": "Wazen is an innovative mobile app designed exclusively for Dubai clients, offering a comprehensive platform to effortlessly manage vehicle policies for both 2-wheelers and 4-wheelers. With Wazen, users can purchase, view, renew, cancel, and transfer their policies, providing a seamless and convenient experience for all their insurance needs.",
+        "name": "Chat App API",
+        "description": "MERN Stack based chat app where user can do one-to-one chat as well as Group Chat. Also added feature like search users, add user , remove user from group by admin.",
         "is_featured": false,
         "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563362/wazen_vgl8rp.png",
         "source_code_link": "https://github.com/Shailesh89116/MERN_Auth_Backend",
