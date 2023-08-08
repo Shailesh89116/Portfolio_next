@@ -56,25 +56,25 @@ export const ProjectsInfo = [
         ],
         "type": "Clones"
     },
-    {
-        "name": "Airbnb Clone",
-        "description": "Webuy is a cutting-edge ecommerce platform designed specifically for engineering students, catering to their unique needs and requirements. With a user-friendly interface and a wide range of products, Webuy offers a seamless shopping experience tailored to engineering enthusiasts.",
-        "is_featured": false,
-        "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/webuy_f7b9op.png",
-        "source_code_link": "https://github.com/Shailesh89116/Netflix-Clone-NextJs",
-        "demo_link": "",
-        "domains": [
-            "#EcommercePlatform",
-            "#EngineeringStudents",
-            "#SeamlessShopping"
-        ],
-        "type": "Clones"
-    },
+    // {
+    //     "name": "Airbnb Clone",
+    //     "description": "Webuy is a cutting-edge ecommerce platform designed specifically for engineering students, catering to their unique needs and requirements. With a user-friendly interface and a wide range of products, Webuy offers a seamless shopping experience tailored to engineering enthusiasts.",
+    //     "is_featured": false,
+    //     "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/webuy_f7b9op.png",
+    //     "source_code_link": "https://github.com/Shailesh89116/Netflix-Clone-NextJs",
+    //     "demo_link": "",
+    //     "domains": [
+    //         "#EcommercePlatform",
+    //         "#EngineeringStudents",
+    //         "#SeamlessShopping"
+    //     ],
+    //     "type": "Clones"
+    // },
     {
         "name": "Mini Microservice App",
         "description": "This is microservice based app where user post some quotes and also do comment on that. Used Asynchronous communication to communicate with services. Also built images of services using Docker and containerizing them with the help of kubernetes.",
         "is_featured": false,
-        "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ifeedback_su7ld5.png",
+        "img_source": "https://res.cloudinary.com/domaepzzs/image/upload/v1691493355/micro_zqvglp.png",
         "source_code_link": "https://github.com/Shailesh89116/Mini-Microservices-App",
         "demo_link": "",
         "domains": [
@@ -88,7 +88,7 @@ export const ProjectsInfo = [
         "name": "Chat App API",
         "description": "MERN Stack based chat app where user can do one-to-one chat as well as Group Chat. Also added feature like search users, add user , remove user from group by admin.",
         "is_featured": false,
-        "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563362/wazen_vgl8rp.png",
+        "img_source": "https://res.cloudinary.com/domaepzzs/image/upload/v1691493355/ChatApp_fytro7.png",
         "source_code_link": "https://github.com/Shailesh89116/MERN_Auth_Backend",
         "demo_link": "",
         "domains": ["#DubaiClients", "#VehiclePolicies", "#InsuranceSolutions"],
