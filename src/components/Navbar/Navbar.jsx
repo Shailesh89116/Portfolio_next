@@ -147,7 +147,7 @@ const Navbar = () => {
             <TwitterIcon className="" />
           </motion.a>
           <motion.a
-            href="https://github.com/shaileshgehlot89116"
+            href="https://github.com/Shailesh89116"
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -156,7 +156,7 @@ const Navbar = () => {
             <GithubIcon className="" />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/shaileshgehlot"
+            href="https://in.linkedin.com/in/shailesh-gehlot-946a8b23b"
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
