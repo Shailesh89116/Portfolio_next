@@ -28,7 +28,7 @@ export const ProjectsInfo = [
         "name": "Ecommerce Store",
         "description": "Build a fully functional e-commerce with  with admin dashboard with seamless navigation and user experience and also integrated stripe as payment gateway.",
         "is_featured": false,
-        "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ovonts_njzhqv.png",
+        "img_source": "https://res.cloudinary.com/domaepzzs/image/upload/v1691489603/Ecom_store_nq3a1z.png",
         "source_code_link": "https://github.com/Shailesh89116/ecommerce-store",
         "demo_link": "https://ecommerce-store-puce-rho.vercel.app",
         "type": "Personal Project"
@@ -37,7 +37,7 @@ export const ProjectsInfo = [
         "name": "Ecommerce Dashboard",
         "description": "Secured E-commerce admin dashboard serve as both CMS, admin and API where admin can create, update and delete categories as well as products and upload multiple images for products. Also used clerk for authentication.",
         "is_featured": false,
-        "img_source": "https://res.cloudinary.com/vectorarora/image/upload/v1686563363/ovonts_njzhqv.png",
+        "img_source": "https://res.cloudinary.com/domaepzzs/image/upload/v1691489603/Ecom_Dashboard_fgjkh0.png",
         "source_code_link": "https://github.com/Shailesh89116/ecommerce-admin",
         "demo_link": "https://ecommerce-admin-eight-sigma.vercel.app",
         "type": "Personal Project"

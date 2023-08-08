@@ -65,7 +65,7 @@ const AboutPage = () => {
               <p className="font-medium ">
                 Hi, I&apos;m Shailesh Gehlot, a Fullstack Developer with a passion for
                 creating beautiful, functional, and user-centered digital
-                experiences. With 5+ years of experience in the field. I am
+                experiences. With 1 years of experience in the field. I am
                 always looking for new and innovative ways to bring my clients&apos;
                 visions to life.
               </p>
