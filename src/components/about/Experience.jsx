@@ -57,7 +57,7 @@ const Experience = () => {
           position="Full Stack Developer (MERN)"
           companyName="Ovonts Technologies Pvt. Ltd."
           address="Mumbai, India"
-          time="Apr 2022 - May 2023"
+          time="Mar 2022 - May 2023"
           work="I am the part of the SAAS product development team and played a key role in developing multiple features that improved the overall user experience.
           Actively involved in the development of new modules in existing mobile
 and web applications."
